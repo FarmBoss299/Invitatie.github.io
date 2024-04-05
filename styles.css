@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Calibri';
+background: linear-gradient(331deg, rgb(31, 207, 195) 0.00%, rgb(31, 145, 207) 100.00%);
+}
+.contact-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact-left-title h2{
+  font-weight: 600;
+  color: #F8F8FF;
+  font-size: 40px;
+  margin-bottom: 5px;
+  
+}
+.contact-left-title hr{
+  border: none;
+  width: 100px;
+  height: 5px;
+  background-color: #F8F8FF;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  bottom: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 50px;
+}
+.contact-left textarea{
+  height: 140px;
+  padding-top: 15px ;
+  border-radius:  20px;
+}
+.contact-inputs:focus{
+  border: 4px solid #0732a0;
+}
+.contact-inputs::placeholder{
+  color: #ffffff;
+}
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+  cursor: pointer;
+}
+.contact-left button img{
+  height: 15px;
+}
+.contact-right img{
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+}
+@media (max-width:800px) {
+  .contact-inputs{
+    width: 80vw;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+  }
+  .contact-right{
+    display: none;
+  }
+}
+.contact-left-title h4{
+  font-weight: 600;
+  color: #f8f8ffcc;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+body{
+  background-image: url('assets/dotx.jpg');
+  background-size: 100%;
+}
+.centered {
+  position: absolute;
+  top: 47%;
+  left: 60.5%;
+  font-size: 50px;
+  color: #8cade0;
+  }
+  .contact-inputs {
+    background-color: #ffffff00;
+  }
